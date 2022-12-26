@@ -1,17 +1,17 @@
 START_TXT = """
-<b>𝚑𝚎𝚕𝚕𝚘 👋 {mention} 
+<b>𝚑𝚎𝚕𝚕𝚘 👋 {mention} </b>
 
-𝚖𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜 <b>{bot}</b> ✨ 𝚒 𝚌𝚊𝚗 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚓𝚞𝚜𝚝 𝚊𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚖𝚊𝚔𝚎 𝚖𝚎 𝚊𝚍𝚖𝚒𝚗..!
+<b>𝚖𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜 {bot} ✨ 𝚒 𝚌𝚊𝚗 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚓𝚞𝚜𝚝 𝚊𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚖𝚊𝚔𝚎 𝚖𝚎 𝚊𝚍𝚖𝚒𝚗..!</b>
 
 𝚓𝚘𝚒𝚗 𝚋𝚘𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 <b><a href=https://t.me/SD_Botzz>𝗦𝗗 𝗕𝗢𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a></b> 𝚝𝚘 𝚐𝚎𝚝 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝚘𝚗 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜</b>
 """
 
 HELP_TXT = """
-👋 <b>Hello {mention}!</b>
+👋 <b>𝚑𝚎𝚕𝚕𝚘 {mention}!</b>
 
-I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules          
+<b>𝚖𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜 {bot}</b>'              
 
-📚 <u><b>HelpFull Commands</b></u>:
+📚 <u><b>Help Full Commands</b></u>:
 
 - /start : Starts me! You've probably already used this!.
 - /help : Sends this message; I'll tell you more about models!
@@ -22,21 +22,20 @@ I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly 
 """
 
 ABOUT_TXT = """
-[{name}](t.me/{username}) Was created on September 4, 2022
-We are currently developing this bot, using only the Pyrogram library.
-
-➾ Developers : Muhammed
-➾ Language : Python3
-➾ Framework : Pyrogram
-➾ Database : Mongo db
+🤖 Bot Name :[{name}](t.me/{username})
+🤴 Developers : SD BOTZ
+🔱 Create : SUNEESH
+📃 Language : Python3
+⚙️ Framework : Pyrogram
+📡 Database : Mongo db
 """
 
 DONATE_TXT = """
 If you like this project of mine, you can donate by clicking on the given link
 
-Dev : [Muhammed](t.me/Pr0fess0r_99)
-Paytm : [Click Here](https://p.paytm.me/xCTH/7yzmtgie)
-  or UPI `motech8129@okaxis`
+Dev : [SD BOT UPDATES](https://t.me/SD_Botzz)
+Paytm : [Click Here](https://t.me/cinemaclubcc)
+  or UPI `Free`
 """
 
 STATUS_TXT = """
@@ -66,10 +65,10 @@ AUTO_TXT = """
       
 🔋 **--Usage & Commands--** :
 
-◉ /autofilter : use to turn on & off
-◉ /set_temp : set new result temp
-◉ /del_temp : del seted result temp
-◉ /settings : use to modify autofilter settings
+◉ /autofilter : `use to turn on & off`
+◉ /set_temp : `set new result temp`
+◉ /del_temp : `del seted result temp`
+◉ /settings : `use to modify autofilter settings`
 
 🔋 **--Supporting Vars--** :
 
@@ -91,10 +90,10 @@ MANUAL_TXT = """
 
 🔋 **--Commands and Usage--** :
 
-◉ /add : add a filter in chat
-◉ /filters : list all the filters of a chat
-◉ /del : delete a specific filter in chat
-◉ /delall : delete the whole filters in a chat (chat owner only)
+◉ /add : `add a filter in chat`
+◉ /filters : `list all the filters of a chat`
+◉ /del : `delete a specific filter in chat`
+◉ /delall : `delete the whole filters in a chat (chat owner only)`
 """
 
 CONNECTION_TXT = """
