@@ -380,12 +380,12 @@ class vars(object):
         [
             button()
                 (
-                    "close 🗑️",
+                    "🗑️ close",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "back <=",
+                    "<= Back",
                         callback_data="maincb+help_cb"
                 )
         ]
@@ -395,12 +395,12 @@ class vars(object):
         [
             button()
                 (
-                    "close 🗑️",
+                    "🗑️ close",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "back <=",
+                    "<= Back",
                         callback_data="maincb+start_cb"
                 )
         ]
@@ -410,12 +410,12 @@ class vars(object):
         [
             button()
                 (
-                    "close 🗑️",
+                    "🗑️ close",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "back <=",
+                    "<= Back",
                         callback_data="maincb+about_cb"
                 )
         ]
