@@ -216,7 +216,7 @@ Check Your Spelling
 """
 
 IMDB_TEMPLATE_TXT = """
-🙋‍♂️<b>⍞ 𝗧𝗶𝘁𝗹𝗲 : {query}</b>\n<b>👤 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 : {mention}</b>\n<b>👥𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 {message.chat.title}</b>
+<b>⍞ 𝗧𝗶𝘁𝗹𝗲 : {query}</b>\n<b>👤 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 : {mention}</b>\n<b>👥𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 {message.chat.title}</b>
 """
 
 WELCOME_TXT = """
