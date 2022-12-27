@@ -3,7 +3,7 @@ START_TXT = """
 
 <b>𝚖𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜 {bot} ✨ 𝚒 𝚌𝚊𝚗 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚓𝚞𝚜𝚝 𝚊𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚖𝚊𝚔𝚎 𝚖𝚎 𝚊𝚍𝚖𝚒𝚗..!</b>
 
-𝚓𝚘𝚒𝚗 𝚋𝚘𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 <b><a href=https://t.me/SD_Botzz>𝗦𝗗 𝗕𝗢𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a></b> 𝚝𝚘 𝚐𝚎𝚝 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝚘𝚗 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜</b>
+<b>𝚓𝚘𝚒𝚗 𝚋𝚘𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 <a href=https://t.me/SD_Botzz>𝗦𝗗 𝗕𝗢𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a> 𝚝𝚘 𝚐𝚎𝚝 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝚘𝚗 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜</b>
 """
 
 HELP_TXT = """
@@ -22,7 +22,7 @@ HELP_TXT = """
 """
 
 ABOUT_TXT = """
-🤖 Bot Name :[{name}](t.me/{username})
+🤖 Bot Name : [{name}](t.me/{username})
 🤴 Developers : SD BOTZ
 🔱 Create : SUNEESH
 📃 Language : Python3
@@ -216,7 +216,8 @@ Check Your Spelling
 """
 
 IMDB_TEMPLATE_TXT = """
-🙋‍♂️ Hey {mention} Your Requested {query} is ready 👍
+🙋‍♂️<b>⍞  𝗧𝗶𝘁𝗹𝗲 : {search}</b>\n\n
+<b>👤 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 : {message.from_user.mention}</b>\n<b>👥𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 {message.chat.title}</b>
 """
 
 WELCOME_TXT = """
