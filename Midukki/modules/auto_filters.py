@@ -717,7 +717,7 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                             [
                                 button()
                                     (
-                                        f"{filesize} {filename}",
+                                        f"📂{filesize} {filename}",
                                             url=await get_shortlink(f"http://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}")
                                     )
                             ]
@@ -727,7 +727,7 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                             [
                                 button()
                                     (
-                                        f"{filesize} {filename}",
+                                        f"📂{filesize} {filename}",
                                             url=f"http://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}"
                                     )
                             ]
@@ -794,7 +794,7 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                         ),
                     button()
                         (
-                            "➡",
+                            "▷",
                                 callback_data=f"nextgroup_0_{keyword}"
                         )
                 ]
@@ -894,7 +894,7 @@ async def next_page_(message):
             [
                 button()
                     (
-                        "🔙",
+                        "◁",
                             callback_data=f"backgroup_{int(index)+1}_{keyword}"
                     ),
                 button()
@@ -938,7 +938,7 @@ async def next_page_(message):
             [
                 button()
                     (
-                        "🔙",
+                        "◁",
                             callback_data=f"backgroup_{int(index)+1}_{keyword}"
                     ),
                 button()
@@ -953,7 +953,7 @@ async def next_page_(message):
                     ),
                 button()
                     (
-                        "➡",
+                        "▷",
                             callback_data=f"nextgroup_{int(index)+1}_{keyword}"
                     )
             ]
@@ -1008,7 +1008,7 @@ async def back_page_(message):
                     ),
                 button()
                     (
-                        "➡",
+                        "▷",
                             callback_data=f"nextgroup_{int(index)-1}_{keyword}"
                     )
             ]
@@ -1042,7 +1042,7 @@ async def back_page_(message):
             [
                 button()
                     (
-                        "🔙",
+                        "◁",
                             callback_data=f"backgroup_{int(index)-1}_{keyword}"
                     ),
                 button()
@@ -1057,7 +1057,7 @@ async def back_page_(message):
                     ),
                 button()
                     (
-                        "➡",
+                        "▷",
                             callback_data=f"nextgroup_{int(index)-1}_{keyword}"
                         )
                 ]
