@@ -260,31 +260,31 @@ class vars(object):
         [
             button()
                 (
-                    "➕️ Add Me To Your Group ➕️",
+                    "➕️ 𝑨𝑫𝑫 𝑴𝑬 𝑻𝑶 𝒀𝑶𝑼𝑹 𝑮𝑹𝑶𝑼𝑷 ➕️",
                         url=f"https://t.me/{Bots.BOT_USERNAME}?startgroup=new"
                 )
         ],
         [
             button()
                 (
-                    "Support",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                    "⭕️ 𝑮𝑹𝑶𝑼𝑷",
+                        url="https://t.me/Mallu_Movie_Hub_Group"
                 ),
             button()
                 (
-                    "Updates",
-                        url="https://t.me/Mo_Tech_YT"
+                    "⭕️ 𝑼𝑷𝑫𝑨𝑻𝑬𝑺",
+                        url="https://t.me/SD_Botzz"
                 )
         ],
         [
             button()
                 (
-                    "Help",
+                    "⭕️ 𝑯𝑬𝑳𝑷",
                         callback_data="maincb+help_cb"
                 ),
             button()
                 (
-                    "About",
+                    "⭕️ 𝑨𝑩𝑶𝑼𝑻",
                        callback_data="maincb+about_cb"
                 )
         ]
@@ -292,50 +292,50 @@ class vars(object):
     help_buttons = [
         [
             button()(
-                "📤AutoFilter", callback_data="maincb+auto_cb"
+                "📤𝑨𝑼𝑻𝑶 𝑭𝑰𝑳𝑻𝑬𝑹", callback_data="maincb+auto_cb"
             ),
             button()(
-                "🎛️ManualFilter", callback_data="maincb+manual_cb"
+                "🎛️𝑴𝑨𝑵𝑼𝑨𝑳 𝑭𝑰𝑳𝑻𝑬𝑹", callback_data="maincb+manual_cb"
             )
         ],
         [
             button()(
-                "🤬Ban", callback_data="maincb+ban_cb"
+                "🤬𝑩𝑨𝑵", callback_data="maincb+ban_cb"
             ),
             button()(
-                "🤐Mute", callback_data="maincb+mute_cb"
+                "🤐𝑴𝑼𝑻𝑬", callback_data="maincb+mute_cb"
             ),
             button()(
-                "ℹ️IDs", callback_data="maincb+info_cb"
+                "ℹ️𝑰𝑫,𝑺", callback_data="maincb+info_cb"
             )
         ],
         [     
             button()(
-                "📌Pin", callback_data="maincb+pin_cb"
+                "📌𝑷𝑰𝑵", callback_data="maincb+pin_cb"
             ),
             button()(
-                "🗣️Spell", callback_data="maincb+spell_cb"
+                "🗣️𝑺𝑷𝑬𝑳𝑳", callback_data="maincb+spell_cb"
             ),
             button()(
-                "📝Caption", callback_data="maincb+caption_cb"
+                "📝𝑪𝑨𝑷𝑻𝑰𝑶𝑵", callback_data="maincb+caption_cb"
             )
         ],
         [
             button()(
-                "🔗Connection", callback_data="maincb+connection_cb"
+                "🔗𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑰𝑶𝑵", callback_data="maincb+connection_cb"
             ),
             button()(
-                "📡Status", callback_data="maincb+stats_cb"
+                "📡𝑺𝑻𝑨𝑻𝑼𝑺", callback_data="maincb+stats_cb"
             )
         ],
         [
             button()(
-               "🔐Admin Panel🔐", callback_data="maincb+admin_panel_cb"
+               "🔐𝑨𝑫𝑴𝑰𝑵 𝑷𝑨𝑵𝑬𝑳🔐", callback_data="maincb+admin_panel_cb"
             )
         ],
         [
             button()(
-                "🚫 Close", callback_data="close_data"
+                "🗑️ Close", callback_data="close_data"
             ),
             button()(
                 "<= Back", callback_data="maincb+start_cb"
