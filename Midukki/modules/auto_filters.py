@@ -1123,8 +1123,8 @@ async def check_correct_spelling(message, settings):
                             ),
                         button()
                             (
-                                "Yandex🔍",
-                                   url='https://yandex.com/"
+                                "🔎ʏᴀɴᴅᴇx sᴇᴀʀᴄʜ🔍",
+                                   url="https://yandex.com/"
                            )
                     ]
                 ]
@@ -1143,8 +1143,8 @@ async def check_correct_spelling(message, settings):
                             ),
                         button()
                             (
-                                "Yandex🔍",
-                                    url='https://yandex.com/"
+                                "🔎ʏᴀɴᴅᴇx sᴇᴀʀᴄʜ🔍",
+                                    url="https://yandex.com/"
                            )
                     ]
                 ]
