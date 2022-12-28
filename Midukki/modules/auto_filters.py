@@ -784,7 +784,7 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                 [
                     button()
                         (
-                            f"📃 1/{data['total']}",
+                            f"🔰 1/{data['total']}",
                                 callback_data="pages"
                         ),
                     button()
@@ -834,7 +834,7 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                 [
                     button()
                         (
-                            "📃 Pages 1/1",
+                            "🔰 Pages 1/1",
                                 callback_data="pages"
                         ),
                     button()
@@ -899,7 +899,7 @@ async def next_page_(message):
                     ),
                 button()
                     (
-                        f"📃 {int(index)+2}/{data['total']}",
+                        f"🔰 {int(index)+2}/{data['total']}",
                             callback_data="pages"
                     ),
                 button()
@@ -943,7 +943,7 @@ async def next_page_(message):
                     ),
                 button()
                     (
-                        f"📃 {int(index)+2}/{data['total']}",
+                        f"🔰 {int(index)+2}/{data['total']}",
                             callback_data="pages"
                     ),
                 button()
@@ -998,7 +998,7 @@ async def back_page_(message):
             [
                 button()
                     (
-                        f"📃 {int(index)}/{data['total']}",
+                        f"🔰 {int(index)}/{data['total']}",
                             callback_data="pages"
                     ),
                 button()
@@ -1047,7 +1047,7 @@ async def back_page_(message):
                     ),
                 button()
                     (
-                        f"📃 {int(index)}/{data['total']}",
+                        f"🔰 {int(index)}/{data['total']}",
                             callback_data="pages"
                     ),
                 button()
@@ -1118,7 +1118,7 @@ async def check_correct_spelling(message, settings):
                     [
                         button()
                             (
-                                "🔍 Search In Google 🔎",
+                                "💻 sᴇᴀʀᴄʜ ɪɴ ɢᴏᴏɢʟᴇ 💻",
                                     url="https://www.google.com/"
                             )
                     ]
@@ -1133,7 +1133,7 @@ async def check_correct_spelling(message, settings):
                     [
                         button()
                             (
-                                "🔍 Search In Google 🔎",
+                                "💻 sᴇᴀʀᴄʜ ɪɴ ɢᴏᴏɢʟᴇ 💻",
                                     url="https://www.google.com/"
                             )
                     ]
