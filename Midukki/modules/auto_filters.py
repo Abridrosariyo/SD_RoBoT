@@ -1120,7 +1120,12 @@ async def check_correct_spelling(message, settings):
                             (
                                 "💻 sᴇᴀʀᴄʜ ɪɴ ɢᴏᴏɢʟᴇ 💻",
                                     url="https://www.google.com/"
-                            )
+                            ),
+                        button()
+                            (
+                                "🗑️",
+                                callback_data="close"
+                           )
                     ]
                 ]
             )
@@ -1135,7 +1140,12 @@ async def check_correct_spelling(message, settings):
                             (
                                 "💻 sᴇᴀʀᴄʜ ɪɴ ɢᴏᴏɢʟᴇ 💻",
                                     url="https://www.google.com/"
-                            )
+                            ),
+                        button()
+                            (
+                                "🗑️",
+                                callback_data="close"
+                           )
                     ]
                 ]
             )
