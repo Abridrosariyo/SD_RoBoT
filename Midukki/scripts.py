@@ -211,8 +211,8 @@ ADMIN_PANEL = """
 
 FILE_CAPTION_TXT = """{file_name}"""
 
-SPELLCHECK_TXT = """Hey Mr 
-Check Your Spelling 
+SPELLCHECK_TXT = """<b>Hey {mention}
+Check Your Spelling\nനിങ്ങൾക്ക് ആവശ്യമുള്ള മൂവിയുടെ പേര് മൂവി ഇറങ്ങിയ വർഷം എഴുതി അയക്കുക, മൂവിയുടെ പേര് Googlil ഉള്ളത് പോലെ ആയിരിക്കണം..!!</b>
 """
 
 IMDB_TEMPLATE_TXT = """
