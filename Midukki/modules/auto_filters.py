@@ -1118,13 +1118,13 @@ async def check_correct_spelling(message, settings):
                     [
                         button()
                             (
-                                "💻 sᴇᴀʀᴄʜ ɪɴ ɢᴏᴏɢʟᴇ 💻",
+                                "🔎ɢᴏᴏɢʟᴇ sᴇᴀʀᴄʜ🔍",
                                     url="https://www.google.com/"
                             ),
                         button()
                             (
-                                "🗑️",
-                                callback_data="close"
+                                "Yandex🔍",
+                                   url='https://yandex.com/"
                            )
                     ]
                 ]
@@ -1138,13 +1138,13 @@ async def check_correct_spelling(message, settings):
                     [
                         button()
                             (
-                                "💻 sᴇᴀʀᴄʜ ɪɴ ɢᴏᴏɢʟᴇ 💻",
+                                "🔎ɢᴏᴏɢʟᴇ sᴇᴀʀᴄʜ🔍",
                                     url="https://www.google.com/"
                             ),
                         button()
                             (
-                                "🗑️",
-                                callback_data="close"
+                                "Yandex🔍",
+                                    url='https://yandex.com/"
                            )
                     ]
                 ]
