@@ -209,7 +209,12 @@ ADMIN_PANEL = """
 - /broadcast : broadcast message
 """
 
-FILE_CAPTION_TXT = """{file_name}"""
+FILE_CAPTION_TXT = """Hey {mention}👋
+
+<code>{file_name}</code>
+╭──── • ❰[Movie Group](https://t.me/Mallu_Movie_Hub_Group)❱ • ───➤
+┣ ▫️[Update Channel](https://t.me/SD_Botzz) | [File Channel](https://t.me/+ZiDeeN9yubk5NDhl)
+╰──────── • ◆ • ──────➤"""
 
 SPELLCHECK_TXT = """<b>Hey {mention}
 Check Your Spelling\nനിങ്ങൾക്ക് ആവശ്യമുള്ള മൂവിയുടെ പേര് മൂവി ഇറങ്ങിയ വർഷം എഴുതി അയക്കുക, മൂവിയുടെ പേര് Googlil ഉള്ളത് പോലെ ആയിരിക്കണം..!!</b>
