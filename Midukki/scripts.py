@@ -3,7 +3,7 @@ START_TXT = """
 
 <b>𝚖𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜 {bot} ✨ 𝚒 𝚌𝚊𝚗 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚓𝚞𝚜𝚝 𝚊𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚖𝚊𝚔𝚎 𝚖𝚎 𝚊𝚍𝚖𝚒𝚗..!</b>
 
-<b>𝚓𝚘𝚒𝚗 𝚋𝚘𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 <a href=https://t.me/SD_Botzz>𝗦𝗗 𝗕𝗢𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a> 𝚝𝚘 𝚐𝚎𝚝 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝚘𝚗 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜</b>
+<b>𝚓𝚘𝚒𝚗 𝚋𝚘𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 <a href=https://t.me/SD_BOT_SUPPORT>𝗦𝗗 𝗕𝗢𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a> 𝚝𝚘 𝚐𝚎𝚝 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝚘𝚗 𝚊𝚕𝚕 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚞𝚙𝚍𝚊𝚝𝚎𝚜</b>
 """
 
 HELP_TXT = """
@@ -22,24 +22,24 @@ HELP_TXT = """
 """
 
 ABOUT_TXT = """
-🤖 Bot Name : [{name}](t.me/{username})
-🤴 Developers : SD BOTZ
-🔱 Create : SUNEESH
+<b>🤖 Bot Name : [{name}](t.me/{username})
+🤴 Developers : <a href=https://t.me/SD_BOT_SUPPORT>SD BOTZ</a>
+🔱 Create : <a href=https://t.me/cinemaclubcc>sᴜɴᴇᴇsʜ ᴅᴇᴇᴢᴜᴢᴢᴀ</a>
 📃 Language : Python3
 ⚙️ Framework : Pyrogram
-📡 Database : Mongo db
+📡 Database : Mongo db</b>
 """
 
 DONATE_TXT = """
-If you like this project of mine, you can donate by clicking on the given link
+<b>If you like this project of mine, you can donate by clicking on the given link
 
 Dev : [SD BOT UPDATES](https://t.me/SD_Botzz)
 Paytm : [Click Here](https://t.me/cinemaclubcc)
-  or UPI `Free`
+  or UPI `Free`</b>
 """
 
 STATUS_TXT = """
-**--{bot}'s STATUS--**
+<b>**--{bot}'s STATUS--**
 
 📡 __--Server Status--__
 ◉ Uptime: `{a}`
@@ -55,13 +55,13 @@ STATUS_TXT = """
 ◉ Tota Chats: `{j}`
 ◉ Used Storage: `{k}` 
 ◉ Free Storage: `{l}`
-◉ Total Storage: `{m}` 
+◉ Total Storage: `{m}` </b>
 """
 
 AUTO_TXT = """
 **--MODULE OF AUTOFILTER--**
 
-● I Can Provide Files In Your Group, It Very Easy Way Just Add Me Ro Your Group And Make Me Admin In Your Group, Thats All.. I Will Provide Files From Your Group 
+<b>● I Can Provide Files In Your Group, It Very Easy Way Just Add Me Ro Your Group And Make Me Admin In Your Group, Thats All.. I Will Provide Files From Your Group 
       
 🔋 **--Usage & Commands--** :
 
@@ -74,13 +74,13 @@ AUTO_TXT = """
 
  • `{mention}` : user profile link
  • `{query}` : request text
- • `{group_name}` : group name
+ • `{group_name}` : group name</b>
 """
 
 MANUAL_TXT = """
 **--MODULE OF MANUALFILTER--**
 
-● Filter Is The Feature Were Users Can Set Automated Replies For A Particular Keyword And Bot Will Respond Whenever A Keyword Is Found The Message
+<b>● Filter Is The Feature Were Users Can Set Automated Replies For A Particular Keyword And Bot Will Respond Whenever A Keyword Is Found The Message
 
 🔋 **--Note--** :
 
@@ -93,13 +93,13 @@ MANUAL_TXT = """
 ◉ /add : `add a filter in chat`
 ◉ /filters : `list all the filters of a chat`
 ◉ /del : `delete a specific filter in chat`
-◉ /delall : `delete the whole filters in a chat (chat owner only)`
+◉ /delall : `delete the whole filters in a chat (chat owner only)`</b>
 """
 
 CONNECTION_TXT = """
 **--MODULE OF CONNECTIONS**--
 
-● Used to connect bot to PM for managing filters 
+<b>● Used to connect bot to PM for managing filters 
 ● it helps to avoid spamming in groups.
 
 🔋 **--NOTE--** :
@@ -111,18 +111,18 @@ CONNECTION_TXT = """
 
 ◉ /connect : connect a particular chat to your PM
 ◉ /disconnect : disconnect from a chat
-◉ /connections : list all your connections
+◉ /connections : list all your connections</b>
 """
 
 INFO_TXT = """
 **--MODULE OF INFO--**
 
-● Hese are the extra features of this bot
+<b<● Hese are the extra features of this bot
 
 🔋 **--Commands and Usage--** :
 
 ◉ /id : get id of a specifed user.
-◉ /info : get information about a user.
+◉ /info : get information about a user.</b>
 """
 
 SPELL_TXT = """
