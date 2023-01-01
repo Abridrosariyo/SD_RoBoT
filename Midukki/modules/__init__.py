@@ -506,7 +506,7 @@ class CB:
         return btn, txt
 
     def help_cb(client, query):
-        txt = Txt.OWNER_TXT.format(bot=Bots.BOT_MENTION, mention=query.from_user.mention)
+        txt = Txt.OWNER_TXT
         btn = markup()(vars.owner_buttons)
         return btn, txt
 
