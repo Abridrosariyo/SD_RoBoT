@@ -462,6 +462,11 @@ class CB:
         btn = markup()(vars.start_emitter_btn)
         return btn, txt
 
+    def about_cb(client, query):
+        txt = Txt.OWNER_TXT.format(bot=Bots.BOT_MENTION, name=Bots.BOT_NAME, username=Bots.BOT_USERNAME, mention=query.from_user.mention)    
+        btn = markup()(vars.start_emitter_btn)
+        return btn, txt
+
     def auto_help(client, query):
         txt = Txt.AUTO_TXT
         btn = markup()(vars.help_emitter_btn)
@@ -515,11 +520,6 @@ class CB:
     def source_code(client, query):
         txt = Txt.SOURCE_TXT
         btn = markup()(vars.about_emitter_btn)
-        return btn, txt
-
-    def help_cb(client, query):
-        txt = Txt.OWNER_TXT
-        btn = markup()(vars.owner_buttons)
         return btn, txt
 
 
