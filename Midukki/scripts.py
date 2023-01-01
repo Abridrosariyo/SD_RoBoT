@@ -1,5 +1,5 @@
 START_TXT = """
-<b>𝚑𝚎𝚕𝚕𝚘 👋 {mention} </b>
+<b>Hello 👋 {mention} </b>
 
 ɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ + ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ + ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ ʙᴏᴛ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs. ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs ᴠɪᴀ ɪɴʟɪɴᴇ. ɪ ᴄᴀɴ ᴀʟsᴏ ᴀᴅᴅ ғɪʟᴛᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.  ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ
 
@@ -7,16 +7,10 @@ START_TXT = """
 """
 
 HELP_TXT = """
-👋 <b>𝚑𝚎𝚕𝚕𝚘 {mention}!</b>
+👋 <b>HEY {mention}!</b>
 
 🚩 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴍᴏᴅᴜʟᴇs ʜᴇʟᴘ
 
-- /start : Starts me! You've probably already used this!.
-- /help : Sends this message; I'll tell you more about models!
-- /about : Sends this message; I'll tell you more about myself!
-- /donate : Gives you info on how to support me and my creator!
-
-<b>All commands can be used with the following: [ / ]</b>
 """
 
 ABOUT_TXT = """
