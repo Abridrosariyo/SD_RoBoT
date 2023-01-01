@@ -110,7 +110,7 @@ async def callback_ui(client, query):
             pass
 
     elif cb == "owner_cb":
-        btn, txt = CB.help_cb(client, query)
+        btn, txt = CB.owner_cb(client, query)
         if Configs.LOADING_SYMBOL == True:
             await loading(query, Configs.LOADING_A, Configs.LOADING_B, asyncio.sleep)
         try:
