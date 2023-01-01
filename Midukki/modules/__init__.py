@@ -462,7 +462,7 @@ class CB:
         btn = markup()(vars.start_emitter_btn)
         return btn, txt
 
-    def about_cb(client, query):
+    def owner_cb(client, query):
         txt = Txt.OWNER_TXT.format(bot=Bots.BOT_MENTION, name=Bots.BOT_NAME, username=Bots.BOT_USERNAME, mention=query.from_user.mention)    
         btn = markup()(vars.start_emitter_btn)
         return btn, txt
