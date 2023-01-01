@@ -285,7 +285,7 @@ class vars(object):
             button()
                 (
                     "🤴 ʙᴏᴛ ᴏᴡɴᴇʀ",
-                        url="https://t.me/cinemaclubcc"
+                        callback_data="maincb+owner_cb"
                 )
         ],
         [
@@ -304,53 +304,53 @@ class vars(object):
     help_buttons = [
         [
             button()(
-                "📤𝑨𝑼𝑻𝑶 𝑭𝑰𝑳𝑻𝑬𝑹", callback_data="maincb+auto_cb"
+                "📚ᴀᴜᴛᴏ ғɪʟᴛᴇʀ", callback_data="maincb+auto_cb"
             ),
             button()(
-                "🎛️𝑴𝑨𝑵𝑼𝑨𝑳 𝑭𝑰𝑳𝑻𝑬𝑹", callback_data="maincb+manual_cb"
+                "💡ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ", callback_data="maincb+manual_cb"
             )
         ],
         [
             button()(
-                "🤬𝑩𝑨𝑵", callback_data="maincb+ban_cb"
+                "⚠️ʙᴀɴ", callback_data="maincb+ban_cb"
             ),
             button()(
-                "🤐𝑴𝑼𝑻𝑬", callback_data="maincb+mute_cb"
+                "🎯ᴍᴜᴛᴇ", callback_data="maincb+mute_cb"
             ),
             button()(
-                "ℹ️𝑰𝑫,𝑺", callback_data="maincb+info_cb"
+                "ℹ️ɪᴅ,s", callback_data="maincb+info_cb"
             )
         ],
         [     
             button()(
-                "📌𝑷𝑰𝑵", callback_data="maincb+pin_cb"
+                "📎ᴘɪɴ", callback_data="maincb+pin_cb"
             ),
             button()(
-                "🗣️𝑺𝑷𝑬𝑳𝑳", callback_data="maincb+spell_cb"
+                "📣sᴘᴇʟʟ", callback_data="maincb+spell_cb"
             ),
             button()(
-                "📝𝑪𝑨𝑷𝑻𝑰𝑶𝑵", callback_data="maincb+caption_cb"
+                "✏️ᴄᴀᴘᴛɪᴏɴ", callback_data="maincb+caption_cb"
             )
         ],
         [
             button()(
-                "🔗𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑰𝑶𝑵", callback_data="maincb+connection_cb"
+                "📮ᴄᴏɴɴᴇᴄᴛɪᴏɴ", callback_data="maincb+connection_cb"
             ),
             button()(
-                "📡𝑺𝑻𝑨𝑻𝑼𝑺", callback_data="maincb+stats_cb"
+                "📊sᴛᴀᴛᴜs", callback_data="maincb+stats_cb"
             )
         ],
         [
             button()(
-               "🔐𝑨𝑫𝑴𝑰𝑵 𝑷𝑨𝑵𝑬𝑳🔐", callback_data="maincb+admin_panel_cb"
+               "⛑️ᴀᴅᴍɪɴ ᴘᴀɴᴇʟ⛑️", callback_data="maincb+admin_panel_cb"
             )
         ],
         [
             button()(
-                "🗑️ Close", callback_data="close_data"
+                "🗑️ ᴄʟᴏsᴇ", callback_data="close_data"
             ),
             button()(
-                "<= Back", callback_data="maincb+start_cb"
+                "<= ʙᴀᴄᴋ", callback_data="maincb+start_cb"
             )     
         ]
     ]
@@ -392,12 +392,12 @@ class vars(object):
         [
             button()
                 (
-                    "🗑️ close",
+                    "🗑️ ᴄʟᴏsᴇ",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "<= Back",
+                    "⇚ ʙᴀᴄᴋ",
                         callback_data="maincb+help_cb"
                 )
         ]
@@ -407,12 +407,12 @@ class vars(object):
         [
             button()
                 (
-                    "🗑️ close",
+                    "🗑️ ᴄʟᴏsᴇ",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "<= Back",
+                    "⇚ ʙᴀᴄᴋ",
                         callback_data="maincb+start_cb"
                 )
         ]
@@ -422,12 +422,12 @@ class vars(object):
         [
             button()
                 (
-                    "🗑️ close",
+                    "🗑️ ᴄʟᴏsᴇ",
                         callback_data="close_data"
                 ),
             button()
                 (
-                    "<= Back",
+                    "⇚ ʙᴀᴄᴋ",
                         callback_data="maincb+about_cb"
                 )
         ]
@@ -503,6 +503,11 @@ class CB:
     def source_code(client, query):
         txt = Txt.SOURCE_TXT
         btn = markup()(vars.about_emitter_btn)
+        return btn, txt
+
+    def help_cb(client, query):
+        txt = Txt.OWNER_TXT.format(bot=Bots.BOT_MENTION, mention=query.from_user.mention)
+        btn = markup()(vars.owner_buttons)
         return btn, txt
 
 
