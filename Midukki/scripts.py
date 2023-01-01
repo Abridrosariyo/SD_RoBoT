@@ -22,6 +22,9 @@ ABOUT_TXT = """
 📡 Database : Mongo db</b>
 """
 
+OWNER_TXT = """
+Hey"""
+
 DONATE_TXT = """
 <b>If you like this project of mine, you can donate by clicking on the given link
 
@@ -239,3 +242,4 @@ class Txt(object):
     BAN_TXT = BAN_TXT
     PIN_TXT = PIN_TXT
     ADMIN_PANEL = ADMIN_PANEL
+    OWNER_TXT = OWNER_TXT
