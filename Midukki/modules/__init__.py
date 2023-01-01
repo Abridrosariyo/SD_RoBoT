@@ -116,8 +116,7 @@ async def callback_ui(client, query):
         try:
             await query.message.edit(
                 text=txt,
-                reply_markup=btn,
-                parse_mode=enums.ParseMode.DEFAULT
+                reply_markup=btn
             )
         except MessageNotModified:
             pass
