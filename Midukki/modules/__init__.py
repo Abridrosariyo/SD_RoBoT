@@ -108,6 +108,19 @@ async def callback_ui(client, query):
             )
         except MessageNotModified:
             pass
+
+    elif cb == "owner_cb":
+        btn, txt = CB.help_cb(client, query)
+        if Configs.LOADING_SYMBOL == True:
+            await loading(query, Configs.LOADING_A, Configs.LOADING_B, asyncio.sleep)
+        try:
+            await query.message.edit(
+                text=txt,
+                reply_markup=btn,
+                parse_mode=enums.ParseMode.DEFAULT
+            )
+        except MessageNotModified:
+            pass
     
     ##====(help)====##
 
