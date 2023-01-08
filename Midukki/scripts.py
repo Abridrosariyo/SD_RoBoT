@@ -219,7 +219,7 @@ FILE_CAPTION_TXT = """<b>✏️ғɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</c
 ╰──────── • ◆ • ──────➤</b>
 <b>⚙️ғɪʟᴇ sɪᴢᴇ : {size}</b>"""
 
-SPELLCHECK_TXT = """message.reply_photo = url="https://graph.org/file/2b3f15bcdbd65e073b512.jpg"""
+SPELLCHECK_TXT = """url="https://graph.org/file/2b3f15bcdbd65e073b512.jpg"""
 
 IMDB_TEMPLATE_TXT = """<b>⍞ 𝗧𝗶𝘁𝗹𝗲 : {query}\n❂ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 : {mention} </b>
 """
